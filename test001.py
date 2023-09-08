@@ -10,5 +10,3 @@ def create_html(fname: str, title: str):
         f.writelines("</body>\n")
         f.writelines("</html>\n")
     
-for i in range(5):
-    create_html(f"output/test{i}.html", "test")
