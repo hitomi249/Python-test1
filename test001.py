@@ -1,4 +1,11 @@
 def create_html(fname: str, title: str):
+    """
+    ---
+    htmlfileのテンプレートを作成する
+
+    fname: ファイル名
+    title: htmlのタイトル
+    """
     with open (fname, encoding="UTF-8", mode="w") as f:
         f.writelines("<!doctype html>\n")
         f.writelines("<html lang='ja'>\n")
